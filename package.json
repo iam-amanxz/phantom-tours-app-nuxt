@@ -1,0 +1,33 @@
+{
+  "name": "tour-project-ui",
+  "version": "1.0.0",
+  "description": "User Interface of motorcycle tour app with vue and nuxt",
+  "author": "iam-amanxz",
+  "private": true,
+  "engines": {
+    "node": "12.16.x",
+    "npm": "6.13.x"
+  },
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "test": "jest",
+    "heroku-postbuild": "npm run build"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.3.6",
+    "@nuxtjs/vuetify": "^1.0.0",
+    "axios": "^0.19.2",
+    "nuxt": "^2.0.0",
+    "vee-validate": "^3.3.0"
+  },
+  "devDependencies": {
+    "@vue/test-utils": "^1.0.0-beta.27",
+    "babel-jest": "^24.1.0",
+    "jest": "^24.1.0",
+    "vue-jest": "^4.0.0-0",
+    "@nuxtjs/dotenv": "^1.4.1"
+  }
+}
