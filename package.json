@@ -19,7 +19,7 @@
   "dependencies": {
     "@nuxtjs/axios": "^5.3.6",
     "@nuxtjs/vuetify": "^1.0.0",
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "nuxt": "^2.0.0",
     "vee-validate": "^3.3.0"
   },
